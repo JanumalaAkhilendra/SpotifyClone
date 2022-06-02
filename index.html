@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/33dbf030b9.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Saavnjiomusic</title>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Spotify</a>
+        <a href="#news">Songs</a>
+        <a href="#contact">Artist</a>
+        <a href="#about">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="boxs">
+        <div class="typesofmusic">
+            <div class="moods">Comedy</div>
+            <div class="moods">Love</div>
+            <div class="moods">Horror</div>
+            <div class="moods">Sad</div>
+            <div class="moods">Lofy</div>
+            <div class="moods">Hate</div>
+        </div>
+        <div class="contain">
+            <div class="itemnumbers moods ">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="0"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods ">
+                <img src="saavnloo.png">
+                <span class="songname"></span> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="1"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods ">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="2"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods ">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="3"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods ">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="4"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods">
+                <img src="saavnloo.png">
+                <span class="songname"></span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="5"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="6"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="7"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="8"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+            <div class="itemnumbers moods">
+                <img src="saavnloo.png">
+                <span class="songname"> </span>
+                <span class="songlistplay"><span class="timestamp">05.34</span><span><i id="9"
+                            class="fa-solid songitemplay fa-play "></i></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid  fa-backward-fast fa-2x"></i>
+            <i class="fa-solid  fa-backward-step fa-2x" id="previous"></i>
+            <i class="fa-solid  fa-play fa-2x" id="masterPlay" onclick="playmusic()"></i>
+            <i class="fa-solid  fa-forward-step fa-2x" id="next"></i>
+            <i class="fa-solid  fa-forward-fast fa-2x"></i>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
